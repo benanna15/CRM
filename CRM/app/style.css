@@ -1,0 +1,130 @@
+.input-style{
+    width: 200px!important;
+    margin-top: 100px!important;
+    margin-bottom:30px!important;
+}
+
+.container-border{
+ border:  thick double #2ab5a8;
+ border-radius: 13px;
+ margin-top: 50px;
+height: 600px;
+width: 400px;
+}
+.grid-container {
+   
+    border-radius: 10px;
+    margin: 30px auto;
+
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width:200px!important;
+}
+.grid-container :nth-child(1){
+    grid-column: 2 / 3;
+    grid-row: 4 /4
+
+  }
+
+  .btn-ocean {
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    background-color: #2ab5a8;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    border-radius: 50%; 
+    border: none;
+    margin: auto;
+   
+
+}
+.btn-ocean:hover,
+.btn-ocean:focus {
+    background-color: #02342f!important;
+    width: 36px;
+    height: 36px;
+
+}
+.btn-clicked{
+
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    background-color: #02342f!important;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    border-radius: 50%; 
+    border: none;
+    margin: auto;
+}
+
+
+
+#welcomeSection{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#roleSection{
+    margin-top: 0;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contentSection{
+    margin:25px  40px;
+}
+
+#mytable{
+    margin-top: 90px;
+}
+
+.content-pin {
+    color: transparent;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  }
+
+.icon-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto;
+}
+
+.icon-pointer {
+    cursor: pointer;
+  }
+
+.title-info{
+font-size: 26px;
+padding: 0px 10px;
+}
+
+.card-content{
+    margin:25px  auto;
+    padding: 10px  15px;
+}
+
+.send-button{
+    border: none;
+    background-color: none;
+}
+
+.cursor{
+    cursor: not-allowed;
+}
+
+select{
+display: block!important;
+border-radius: 10px;
+}
+
+.no-pointer-events {
+    
+    cursor: not-allowed !important;
+}
